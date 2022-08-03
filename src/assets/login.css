@@ -1,0 +1,63 @@
+.app {
+  background-color: #9098a6;
+  height: 100vh;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 50px);
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.header h3 {
+  color: #87898d;
+}
+
+.card-login {
+  width: 448px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 40px 64px;
+}
+
+.description {
+  color: #87898d;
+  margin-top: 14px;
+}
+
+.card-body {
+  margin-top: 32px;
+}
+
+.form-label {
+  color: #363536;
+  font-size: 12.8px;
+}
+
+.btn-login {
+  background-color: #4284f3;
+  color: #fff;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .card-login {
+    padding: 40px 30px;
+    margin: 0px 5px;
+  }
+}

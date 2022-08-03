@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #363536;
+}
+
+input,
+button {
+  height: 40px;
+  padding: 0 6px;
+  background-color: rgba(235, 236, 242, 0.15);
+  border-radius: 4px;
+  border: 1px solid #e2e0e6;
+}
+
+select {
+  height: 30px;
+  padding: 0 30px;
+  border-radius: 4px;
+  border: 1px solid #e2e0e6;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 14px;
+  padding-left: 2px;
+}
+
+th {
+  color: #bcbcbc;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+td:nth-child(2n + 1) {
+  border-top: 1px solid #ccc;
+}
+
+td:nth-child(2n) {
+  border-top: 1px solid #ccc;
+}
+
+input:focus {
+  outline: #4284f3;
+  border: 1px solid #4284f3;
+}
+
+button {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.1s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button,
+input {
+  width: 100%;
+  margin: 4px 0;
+}
+
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mt-5 {
+  margin-top: 25px;
+}
+
+.pt-1 {
+  padding-top: 4px;
+}
+
+.pt-2 {
+  padding-top: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.border-0 {
+  border: none;
+}
+
+.border-0:focus {
+  outline: none;
+  border: none;
+}
