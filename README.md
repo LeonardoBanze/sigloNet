@@ -6,7 +6,7 @@
 </h4>
 
 ## Application Deployment with Netlify: :dash:
-https://siglonet.netlify.app/
+siglonettest.netlify.app
 
 ![Screenshot 2022-02-22 114409](https://user-images.githubusercontent.com/67284022/155105943-c75aacb4-8432-420a-b8fc-fb6df1d002f3.png)
 
@@ -21,8 +21,8 @@ This project was developed using the following technologies:
 Clone the project and access the folder.
 
 ```bash
-$ git clone https://github.com/m3lvin-s3rafim/siglonet_
-$ cd siglonet_
+$ https://github.com/LeonardoBanze/sigloNet.git
+$ cd sigloNet
 ```
 
 Follow the steps below:
